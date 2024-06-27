@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState, memo } from "react";
 import { motion } from "framer-motion";
-import { twMerge } from "tailwind-merge";
 import { cn } from "../utils/cn"; // Adjust the import path as needed
 
 export const TextRevealCard = ({ text, revealText, children, className }) => {
@@ -104,18 +103,7 @@ export const TextRevealCard = ({ text, revealText, children, className }) => {
   );
 };
 
-// export const TextRevealCardTitle = ({ children, className }) => {
-//   return (
-//     <h2 className={twMerge("text-white text-lg mb-2", className)}>
-//       {children}
-//     </h2>
-//   );
-// };
-// export const TextRevealCardDescription = ({ children, className }) => {
-//   return (
-//     <p className={twMerge("text-[#a9a9a9] text-sm", className)}>{children}</p>
-//   );
-// };
+
 
 const Stars = () => {
   const randomMove = () => Math.random() * 4 - 2;

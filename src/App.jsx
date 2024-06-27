@@ -2,22 +2,13 @@ import React from "react";
 import AuroraBackground from "./components/AuroraBackground";
 import LayoutGrid from "./components/TilesProjects";
 import {
-  TextRevealCard,
-  // TextRevealCardDescription,
-  // TextRevealCardTitle,
+  TextRevealCard
 } from "./components/TextRevealCard";
-import { TracingBeam } from "./components/TracingBeam";
-import dummyContent from "./components/dummy";
-// import LayoutGrid from "./components/LayoutGrid"; // Adjust the import path as needed
-import { twMerge } from "tailwind-merge";
-import TracingBeamDemo from "./components/TBDemo";
-import GoogleGeminiEffectDemo from "./components/GoogleCompon";
 import TextGenerateEffect from "./components/TextEffect";
 import { Button } from "./components/Button";
 import MySkills from "./components/MySkills";
 import { LinkPreviewDemo } from "./components/ContactMeComp";
 import { FaArrowLeft } from "react-icons/fa";
-import ContactMe from "./components/ContactEmailMy";
 
 import {
   SkeletonOne,
@@ -110,7 +101,6 @@ function App() {
           <TextRevealCard text="Look!" revealText="at my projects" />
         </div>
 
-        {/* <ContactMe/> */}
 
         <MySkills />
 
