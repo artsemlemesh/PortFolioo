@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState, memo } from "react";
 import { motion } from "framer-motion";
-import { cn } from "../utils/cn"; // Adjust the import path as needed
+import { cn } from "../utils/cn"; 
 
 export const TextRevealCard = ({ text, revealText, children, className }) => {
   const [widthPercentage, setWidthPercentage] = useState(0);

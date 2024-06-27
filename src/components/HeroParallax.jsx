@@ -1,7 +1,5 @@
 import React from "react";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
-import { cn } from "../utils/cn"; // Ensure this path is correct or adjust accordingly
-import AuroraBackground from "./AuroraBackground";
 
 export const HeroParallax = ({ products }) => {
   const firstRow = products.slice(0, 5);

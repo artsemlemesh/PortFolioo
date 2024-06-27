@@ -1,6 +1,4 @@
-"use client";
 import * as HoverCardPrimitive from "@radix-ui/react-hover-card";
-// import Image from "next/image";
 import { encode } from "qss";
 import React from "react";
 import {
@@ -9,9 +7,7 @@ import {
   useMotionValue,
   useSpring,
 } from "framer-motion";
-// import Link from "next/link";
 import { cn } from "../utils/cn";
-// import { cn } from "@/utils/cn";
 
 
 
