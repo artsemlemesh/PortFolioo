@@ -1,1 +1,1 @@
-echo "web: serve -s build" > Procfile
+web: serve -s build
