@@ -5,23 +5,18 @@ FROM node:16-alpine
 WORKDIR /app
 
 # Install dependencies.
-COPY package.json package-lock.json ./
+COPY package.json ./
+
 RUN npm install
 
 # Copy the project files.
 COPY . .
 
-# Build the React app
-RUN npm run build
-
-# Install 'serve' to serve the build files
-RUN npm install -g serve
-
 # Expose the port the app runs on.
 EXPOSE 3007
 
-# Command to run the app
-CMD ["serve", "-s", "build"]
+# Run the application.
+CMD ["npm", "run", "dev"]
 
 
 # # Stage 1: Build the React app
