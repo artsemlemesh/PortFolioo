@@ -11,13 +11,13 @@ export const SkeletonOne = () => {
 
       <div className="flex flex-row space-x-4 p-8">
         <a
-          href="https://github.com/artsemlemesh/React-Mike/tree/a7eb2e2ff67ec2483a4c216909af0454e90831e2/CCarRent"
+          href="https://github.com/artsemlemesh/Car-rent-FB.git"
           className="bg-white text-gray-800 font-semibold py-2 px-4 border border-gray-300 rounded shadow hover:bg-gray-100 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-opacity-50"
         >
           Source code
         </a>
         <a
-          href="http://localhost:3002/"
+          href="https://carrent-f-149724fe3694.herokuapp.com/"
           className="bg-white text-gray-800 font-semibold py-2 px-4 border border-gray-300 rounded shadow hover:bg-gray-100 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-opacity-50"
         >
           See Live
@@ -39,13 +39,13 @@ export const SkeletonTwo = () => {
 
       <div className="flex flex-row space-x-4 p-8">
         <a
-          href="https://github.com/artsemlemesh/React-Mike/tree/a7eb2e2ff67ec2483a4c216909af0454e90831e2/E-commerce"
+          href="https://github.com/artsemlemesh/E-comm-FB.git"
           className="bg-white text-gray-800 font-semibold py-2 px-4 border border-gray-300 rounded shadow hover:bg-gray-100 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-opacity-50"
         >
           Source code
         </a>
         <a
-          href="http://localhost:3003/"
+          href="https://front-mike-d8af1337fdbe.herokuapp.com/"
           className="bg-white text-gray-800 font-semibold py-2 px-4 border border-gray-300 rounded shadow hover:bg-gray-100 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-opacity-50"
         >
           See Live
@@ -59,21 +59,21 @@ export const SkeletonThree = () => {
     <div>
       <p className="font-bold text-4xl text-white">Car rent</p>
       <p className="font-normal text-base text-white">
-        website for renting cars
+        CryptoCurrency
       </p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Tech used: React, Redux, TailwindCSS, JS, OAuth2
+        Tech used: 
       </p>
 
       <div className="flex flex-row space-x-4 p-8">
         <a
-          href="https://github.com/artsemlemesh/React-Mike/tree/debcfb1bf31b1c42381b43d02fefd1f4a8fb45ff/CryptoApp"
+          href="https://github.com/artsemlemesh/CryptoApplication.git"
           className="bg-white text-gray-800 font-semibold py-2 px-4 border border-gray-300 rounded shadow hover:bg-gray-100 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-opacity-50"
         >
           Source code
         </a>
         <a
-          href="http://localhost:3004/"
+          href="https://my-crypto-application-de2d9328179a.herokuapp.com/"
           className="bg-white text-gray-800 font-semibold py-2 px-4 border border-gray-300 rounded shadow hover:bg-gray-100 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-opacity-50"
         >
           See Live
@@ -87,21 +87,21 @@ export const SkeletonFour = () => {
     <div>
       <p className="font-bold text-4xl text-white">Car rent</p>
       <p className="font-normal text-base text-white">
-        website for renting cars
+        Gym website
       </p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Tech used: React, Redux, TailwindCSS, JS, OAuth2
+        Tech used: React
       </p>
 
       <div className="flex flex-row space-x-4 p-8">
         <a
-          to="/target-page-1"
+          href="https://github.com/artsemlemesh/GymFB.git"
           className="bg-white text-gray-800 font-semibold py-2 px-4 border border-gray-300 rounded shadow hover:bg-gray-100 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-opacity-50"
         >
           Source code
         </a>
         <a
-          to="/target-page-2"
+          href="https://gym-f-dc98ca53f9ec.herokuapp.com/"
           className="bg-white text-gray-800 font-semibold py-2 px-4 border border-gray-300 rounded shadow hover:bg-gray-100 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-opacity-50"
         >
           See Live
@@ -110,3 +110,24 @@ export const SkeletonFour = () => {
     </div>
   );
 };
+// Title and Description:
+// 	•	Title: The name of your project.
+// 	•	Description: A brief overview of what your project does.
+// 	2.	Table of Contents:
+// 	•	Provide a quick navigation guide for the README sections.
+// 	3.	Installation:
+// 	•	Detailed instructions on how to set up the project locally.
+// 	4.	Usage:
+// 	•	How to run the project and use its features.
+// 	5.	Features:
+// 	•	Highlight the main features of your application.
+// 	6.	Technologies Used:
+// 	•	List the technologies, libraries, and frameworks used in the project.
+// 	7.	Deployment:
+// 	•	Instructions or links on how to deploy the project, especially if it involves complex steps like using Docker or Heroku.
+// 	8.	Contributing:
+// 	•	Guidelines for contributing to the project.
+// 	9.	License:
+// 	•	Information about the project’s license.
+// 	10.	Contact:
+// 	•	Provide ways to get in touch with the project maintainers.
