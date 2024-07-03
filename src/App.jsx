@@ -46,17 +46,11 @@ const cards = [
 ];
 
 const words = `
-Hi there! I’m a full stack developer passionate about building web applications that are both functional and visually appealing. 
-With a strong foundation in React and Django, I enjoy working on both the front-end and back-end, creating seamless user experiences. 
-My journey in tech is driven by curiosity and a love for problem-solving, which constantly motivates me to learn and adapt. 
-I take pride in turning complex ideas into simple, efficient solutions and writing clean, maintainable code. 
-For instance, I once spent a week troubleshooting a Docker container issue, dedicating over 35 hours before finding a simple but tricky solution. 
-Whether designing responsive interfaces or developing robust APIs, I aim to deliver quality work that makes a difference. 
-I believe in teamwork and enjoy collaborating to bring ideas to life.
+Hi there! I’m a full stack developer passionate about building functional and visually appealing web applications. With a strong foundation in React and Django, I enjoy working on both front-end and back-end to create seamless user experiences. My curiosity and love for problem-solving drive me to constantly learn and adapt. I pride myself on turning complex ideas into efficient solutions and writing clean, maintainable code. For example, I once spent over 35 hours troubleshooting a tricky Docker container issue, demonstrating my determination.
 
-Outside of coding, I love adventure travel and am always looking for new experiences and challenges. 
-I’m open-minded and eager to embrace whatever comes my way, both professionally and personally. 
-Exploring new cultures and trying different activities keeps me creative and inspired in my work.
+Whether designing responsive interfaces or developing robust APIs, I aim to deliver quality work that makes a difference. I believe in teamwork and enjoy collaborating to bring ideas to life.
+
+Outside of coding, I love adventure travel and seeking new experiences and challenges. I’m open-minded and eager to embrace new opportunities, both professionally and personally. Exploring new cultures and trying different activities keeps me creative and inspired.
 `;
 
 
