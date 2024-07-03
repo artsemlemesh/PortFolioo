@@ -10,10 +10,10 @@ const ContactMe = () => {
 
     emailjs
       .sendForm(
-        "service_hpx884p",  // Replace with your EmailJS service ID
-        "template_6xzamk8",  // Replace with your EmailJS template ID
+        "service_hpx884p",  
+        "template_6xzamk8",  
         form.current,
-        "c94a_MPbSVCfJjfmW"       // Replace with your EmailJS user ID
+        "c94a_MPbSVCfJjfmW"      
       )
       .then(
         (result) => {

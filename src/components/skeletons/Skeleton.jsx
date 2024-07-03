@@ -57,12 +57,12 @@ export const SkeletonTwo = () => {
 export const SkeletonThree = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">Car rent</p>
+      <p className="font-bold text-4xl text-white">CryptoCurrency</p>
       <p className="font-normal text-base text-white">
-        CryptoCurrency
+        Check the up-to-date prices of various cryptocurrencies 
       </p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Tech used: 
+        Tech used: React, Router, CoinGeco API, axios
       </p>
 
       <div className="flex flex-row space-x-4 p-8">
@@ -85,12 +85,12 @@ export const SkeletonThree = () => {
 export const SkeletonFour = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">Car rent</p>
+      <p className="font-bold text-4xl text-white">Gym website</p>
       <p className="font-normal text-base text-white">
-        Gym website
+      Web application designed for gym enthusiasts to explore gym programs and schedules
       </p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Tech used: React
+        Tech used: React, TailwindCSS, stripe, axios, redux, django, Rest framework, CORS, Docker
       </p>
 
       <div className="flex flex-row space-x-4 p-8">
@@ -110,24 +110,3 @@ export const SkeletonFour = () => {
     </div>
   );
 };
-// Title and Description:
-// 	•	Title: The name of your project.
-// 	•	Description: A brief overview of what your project does.
-// 	2.	Table of Contents:
-// 	•	Provide a quick navigation guide for the README sections.
-// 	3.	Installation:
-// 	•	Detailed instructions on how to set up the project locally.
-// 	4.	Usage:
-// 	•	How to run the project and use its features.
-// 	5.	Features:
-// 	•	Highlight the main features of your application.
-// 	6.	Technologies Used:
-// 	•	List the technologies, libraries, and frameworks used in the project.
-// 	7.	Deployment:
-// 	•	Instructions or links on how to deploy the project, especially if it involves complex steps like using Docker or Heroku.
-// 	8.	Contributing:
-// 	•	Guidelines for contributing to the project.
-// 	9.	License:
-// 	•	Information about the project’s license.
-// 	10.	Contact:
-// 	•	Provide ways to get in touch with the project maintainers.
