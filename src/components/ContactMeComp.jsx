@@ -1,16 +1,14 @@
 import React from "react";
 import { LinkPreview } from "./ContactMe";
-import { useNavigate } from "react-router-dom";
 
 export function LinkPreviewDemo() {
-  const navigate = useNavigate()
 
   return (
     <div className="flex justify-center items-center h-[40rem] flex-col px-4">
       
       <p className="text-neutral-500 dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-10">
         You can reach out to me via{"  "}
-        <LinkPreview isStatic={true}  imageSrc='email.png' url={()=> navigate('/email')} className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-blue-500 to-green-500">
+        <LinkPreview isStatic={true}  imageSrc='email.png' url="https://my-portfolio-mike-96-640a902a20f4.herokuapp.com/email" className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-blue-500 to-green-500">
           Email
         </LinkPreview>
         ,{" "}
