@@ -46,7 +46,7 @@ const cards = [
 ];
 
 const words = `
-Hi there! I’m a full stack developer passionate about building functional and visually appealing web applications. With a strong foundation in React and Django, I enjoy working on both front-end and back-end to create seamless user experiences. My curiosity and love for problem-solving drive me to constantly learn and adapt. I pride myself on turning complex ideas into efficient solutions and writing clean, maintainable code. For example, I once spent over 35 hours troubleshooting a tricky Docker container issue, demonstrating my determination.
+Hi there! I’m a full stack developer passionate about building functional and visually appealing web applications. With a strong foundation in React and Django, I enjoy working on both front-end and back-end to create seamless user experiences. My curiosity and love for problem-solving drive me to constantly learn and adapt. I pride myself on turning complex ideas into efficient solutions and writing clean, maintainable code. 
 
 Whether designing responsive interfaces or developing robust APIs, I aim to deliver quality work that makes a difference. I believe in teamwork and enjoy collaborating to bring ideas to life.
 
